@@ -61,3 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # spree extension gem
 # https://guides.spreecommerce.org/developer/extensions_tutorial.html
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
+gem 'sprockets-helpers', '~> 1.2.1'
+gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: 'master'
