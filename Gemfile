@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # for spree commerce
+# https://guides.spreecommerce.org/developer/getting_started_tutorial.html
 gem 'spree', '~> 3.3'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
@@ -56,3 +57,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# spree extension gem
+# https://guides.spreecommerce.org/developer/extensions_tutorial.html
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
